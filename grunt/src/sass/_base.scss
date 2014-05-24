@@ -1,0 +1,14 @@
+
+.wrapper{
+  background: #abc;
+  font-family: $fontMain;
+  *{
+    position: relative;
+    @include box-sizing(border-box);
+  }
+  a{
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+  }
+}

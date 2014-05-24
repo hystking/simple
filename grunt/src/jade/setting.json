@@ -1,0 +1,13 @@
+{
+  "imageRoot": "img",
+
+  "useFb": true,
+  "useTw": true,
+  "useGp": false,
+  "useHtn": true,
+
+  "title": "ページタイトル",
+  "description": "説明文",
+  "shareUrl": "http://www.google.com/",
+  "tweetMessage": "ツイート文言"
+}
