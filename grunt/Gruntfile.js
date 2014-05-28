@@ -165,7 +165,8 @@ module.exports = function(grunt){
     pngmin: {
       compile: {
         options: {
-          force: true
+          force: true,
+          ext: ".png"
         },
         files: [
           {
