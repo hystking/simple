@@ -158,7 +158,21 @@ module.exports = function(grunt){
           src_root+"js/app/*.js",
           src_root+"js/main.js"
         ],
-        tasks: ["jshint","concat:js", "copy:js"]
+        tasks: ["jshint", "concat:js", "copy:js"]
+      }
+    },
+
+    pngmin: {
+      compile: {
+        options: {
+          force: true
+        },
+        files: [
+          {
+            src: dest_root+"img/*",
+            dest: dest_root+"img/"
+          }
+        ]
       }
     }
   });
@@ -172,6 +186,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-open");
+  grunt.loadNpmTasks("grunt-pngmin");
 
   var compile_tasks = [
     "clean:dest",
@@ -183,6 +198,7 @@ module.exports = function(grunt){
     "copy:css",
     "copy:js",
     "copy:img",
+    "pngmin:compile"
   ];
   var watch_tasks = [
     "connect:http",
