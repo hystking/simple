@@ -8,13 +8,25 @@
 
     this.isPlaying = false;
     this.n = 1;
+
+    /*
+    if(imgUrl){
+      setTimeout(function(){
+        this.loaded = true;
+        if(this.isPlaying) this.start();
+      }.bind(this));
+      this.loaded = false;
+    }else{
+    */
+      this.loaded = true;
+    //}
   };
   SpriteAnimation.prototype = {
     start: function(){
       this.isPlaying = true;
       var num = "";
       var routine = function(){
-        if(!this.isPlaying) return;
+        if(!this.isPlaying || !this.loaded) return;
         this.$e.removeClass(this.prefix+num);
         if(++this.n > this.frame){
           this.n = 1;
@@ -23,6 +35,7 @@
         this.$e.addClass(this.prefix+num);
         setTimeout(routine, 1000/this.fps);
       }.bind(this);
+
       setTimeout(routine, 0);
     },
     stop: function(){
