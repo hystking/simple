@@ -38,7 +38,7 @@
 @mixin loadSpriteAll($spr, $prefix, $scale){
   $sprImage: sprite-url($spr);
   @each $name in sprite-names($spr){
-    .#{$prefix}-#{$name}{
+    .#{$prefix}#{$name}{
       @include loadSprite($spr, $name, $scale);
     }
   }
