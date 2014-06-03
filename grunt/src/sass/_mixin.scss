@@ -1,4 +1,4 @@
-@mixin replaceImage($path, $scale){
+@mixin replaceImage($path, $scale: 1){
   $width: image-width($path) * $scale;
   $height: image-height($path) * $scale;
   display: inline-block;
@@ -9,14 +9,14 @@
   text-indent: -9999px;
 }
 
-@mixin backgroundImage($path, $scale){
+@mixin backgroundImage($path, $scale: 1){
   $width: image-width($path) * $scale;
   $height: image-height($path) * $scale;
   background: image-url($path);
   @include background-size($width, $height);
 }
 
-@mixin loadSprite($spr, $name, $scale){
+@mixin loadSprite($spr, $name, $scale: 1){
   $sprPath: sprite-path($spr);
   $width: floor(image-width(sprite-file($spr, $name)) * $scale);
   $height: floor(image-height(sprite-file($spr, $name)) * $scale);
@@ -29,7 +29,7 @@
   height: $height;
 };
 
-@mixin loadSpriteAll($spr, $sprName, $scale){
+@mixin loadSpriteAll($spr, $sprName, $scale: 1){
   $sprImage: sprite-url($spr);
   $sprPath: sprite-path($spr);
   $sprWidth: floor(image-width($sprPath) * $scale);
