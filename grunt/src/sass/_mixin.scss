@@ -18,28 +18,32 @@
 
 @mixin loadSprite($spr, $name, $scale){
   $sprPath: sprite-path($spr);
-  $sprWidth: floor(image-width($sprPath) * $scale);
-  $sprHeight: floor(image-height($sprPath) * $scale);
   $width: floor(image-width(sprite-file($spr, $name)) * $scale);
   $height: floor(image-height(sprite-file($spr, $name)) * $scale);
   $pos: sprite-position($spr, $name);
   $left: floor(nth($pos, 1) * $scale);
   $top: floor(nth($pos, 2) * $scale);
-  background:image-url($sprPath) no-repeat;
-  background-repeat: none;
   background-position: $left $top;
-  @include background-size($sprWidth, $sprHeight);
-  display: inline-block;
+
   width: $width;
   height: $height;
-  text-indent: -9999px;
 };
 
-@mixin loadSpriteAll($spr, $prefix, $scale){
+@mixin loadSpriteAll($spr, $sprName, $scale){
   $sprImage: sprite-url($spr);
-  @each $name in sprite-names($spr){
-    .#{$prefix}#{$name}{
-      @include loadSprite($spr, $name, $scale);
+  $sprPath: sprite-path($spr);
+  $sprWidth: floor(image-width($sprPath) * $scale);
+  $sprHeight: floor(image-height($sprPath) * $scale);
+  .#{$sprName}{
+    background:image-url($sprPath) no-repeat;
+    background-repeat: no-repeat;
+    @include background-size($sprWidth, $sprHeight);
+    display: inline-block;
+    text-indent: -9999px;
+  }
+  @each $fileName in sprite-names($spr){
+    .#{$sprName}.#{$fileName}{
+      @include loadSprite($spr, $fileName, $scale);
     }
   }
 }

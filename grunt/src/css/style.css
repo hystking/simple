@@ -75,842 +75,373 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   min-width: 910px;
 }
 
-.square-f0001 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2800px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
+.spr-square {
+  background: url('../img/square-s437d4b585a.png?1401437060') no-repeat;
+  background-repeat: no-repeat;
+  -webkit-background-size: 3060px, 50px;
+  -moz-background-size: 3060px, 50px;
+  -o-background-size: 3060px, 50px;
+  background-size: 3060px, 50px;
   display: inline-block;
-  width: 50px;
-  height: 50px;
   text-indent: -9999px;
 }
 
-.square-f0002 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2850px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0003 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2700px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0004 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2550px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0005 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2500px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0006 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2350px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0007 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2100px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0008 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2200px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0009 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1950px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0010 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1300px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0011 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1750px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0012 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1350px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0013 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1400px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0014 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2150px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0015 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1700px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0016 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1550px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0017 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -900px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0018 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1000px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0019 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1050px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0020 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -650px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0021 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1250px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0022 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -750px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0023 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -600px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0024 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -500px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0025 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -200px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0026 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -950px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0027 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -300px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0028 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -150px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-}
-
-.square-f0029 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
+.spr-square.f0001 {
   background-position: 0 0;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0030 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1200px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0002 {
+  background-position: -51px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0031 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -50px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0003 {
+  background-position: -102px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0032 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -250px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0004 {
+  background-position: -153px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0033 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -100px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0005 {
+  background-position: -204px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0034 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2250px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0006 {
+  background-position: -255px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0035 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -400px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0007 {
+  background-position: -306px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0036 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -350px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0008 {
+  background-position: -357px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0037 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -450px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0009 {
+  background-position: -408px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0038 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -700px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0010 {
+  background-position: -459px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0039 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1800px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0011 {
+  background-position: -510px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0040 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -800px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0012 {
+  background-position: -561px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0041 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1100px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0013 {
+  background-position: -612px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0042 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -550px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0014 {
+  background-position: -663px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0043 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -850px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0015 {
+  background-position: -714px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0044 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1150px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0016 {
+  background-position: -765px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0045 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2650px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0017 {
+  background-position: -816px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0046 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1650px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0018 {
+  background-position: -867px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0047 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1900px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0019 {
+  background-position: -918px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0048 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1500px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0020 {
+  background-position: -969px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0049 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1850px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0021 {
+  background-position: -1020px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0050 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1600px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0022 {
+  background-position: -1071px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0051 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -1450px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0023 {
+  background-position: -1122px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0052 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2000px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0024 {
+  background-position: -1173px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0053 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2050px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0025 {
+  background-position: -1224px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0054 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2300px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0026 {
+  background-position: -1275px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0055 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2400px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0027 {
+  background-position: -1326px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0056 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2450px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0028 {
+  background-position: -1377px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0057 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2600px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0029 {
+  background-position: -1428px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0058 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2750px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0030 {
+  background-position: -1479px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0059 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2900px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0031 {
+  background-position: -1530px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
 }
 
-.square-f0060 {
-  background: url('../img/square-s728b1e5c45.png?1400946608') no-repeat;
-  background-repeat: none;
-  background-position: 0 -2950px;
-  -webkit-background-size: 50px, 3000px;
-  -moz-background-size: 50px, 3000px;
-  -o-background-size: 50px, 3000px;
-  background-size: 50px, 3000px;
-  display: inline-block;
+.spr-square.f0032 {
+  background-position: -1581px 0;
   width: 50px;
   height: 50px;
-  text-indent: -9999px;
+}
+
+.spr-square.f0033 {
+  background-position: -1632px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0034 {
+  background-position: -1683px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0035 {
+  background-position: -1734px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0036 {
+  background-position: -1785px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0037 {
+  background-position: -1836px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0038 {
+  background-position: -1887px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0039 {
+  background-position: -1938px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0040 {
+  background-position: -1989px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0041 {
+  background-position: -2040px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0042 {
+  background-position: -2091px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0043 {
+  background-position: -2142px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0044 {
+  background-position: -2193px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0045 {
+  background-position: -2244px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0046 {
+  background-position: -2295px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0047 {
+  background-position: -2346px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0048 {
+  background-position: -2397px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0049 {
+  background-position: -2448px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0050 {
+  background-position: -2499px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0051 {
+  background-position: -2550px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0052 {
+  background-position: -2601px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0053 {
+  background-position: -2652px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0054 {
+  background-position: -2703px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0055 {
+  background-position: -2754px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0056 {
+  background-position: -2805px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0057 {
+  background-position: -2856px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0058 {
+  background-position: -2907px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0059 {
+  background-position: -2958px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.spr-square.f0060 {
+  background-position: -3009px 0;
+  width: 50px;
+  height: 50px;
 }

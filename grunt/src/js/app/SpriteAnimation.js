@@ -4,42 +4,48 @@
     this.prefix = prefix;
     this.frame = frame;
     this.fps = fps === undefined ? 30 : fps;
-    this.loop = loop === undefined ? true : false;
-
+    this.loop = loop === undefined ? true : loop;
     this.isPlaying = false;
+    this.timeStamp = -1;
     this.n = 1;
-
-    /*
-    if(imgUrl){
-      setTimeout(function(){
-        this.loaded = true;
-        if(this.isPlaying) this.start();
-      }.bind(this));
-      this.loaded = false;
-    }else{
-    */
-      this.loaded = true;
-    //}
   };
   SpriteAnimation.prototype = {
-    start: function(){
+    _getClassName: function(n){
+       return this.prefix+("000" + this.n).slice(-4);
+    },
+    play: function(callback){
       this.isPlaying = true;
       var num = "";
+      var timeStamp = +new Date();
+      this.timeStamp = timeStamp;
       var routine = function(){
-        if(!this.isPlaying || !this.loaded) return;
-        this.$e.removeClass(this.prefix+num);
-        if(++this.n > this.frame){
-          this.n = 1;
+        if(!this.isPlaying || this.timeStamp !== timeStamp) return;
+        var n_next = this.n+1;
+        if(n_next > this.frame){
+          if(this.loop){
+            n_next = 1;
+          }else{
+            n_next = this.frame;
+            this.stop(callback);
+          }
         }
-        num = ("000" + this.n).slice(-4);//0 padding
-        this.$e.addClass(this.prefix+num);
+        this.setN(n_next);
         setTimeout(routine, 1000/this.fps);
       }.bind(this);
-
       setTimeout(routine, 0);
     },
-    stop: function(){
+    setN: function(n){
+      this.$e.removeClass(this._getClassName(this.n));
+      this.n = n;
+      this.$e.addClass(this._getClassName(this.n));
+    },
+    start: function(callback){
+      this.setN(1);
+      this.play(callback);
+    },
+    stop: function(callback){
       this.isPlaying = false;
+      setTimeout(callback, 0);
     }
   };
 })(this, document);
